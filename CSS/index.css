@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    background-image: url(Imagens/Fundo\ do\ Cabeçalho.png);
+    
+}
+#Menu{
+    padding-left: 2%;
+}
+#nada{
+    width: 1%;
+}
+
+.Introducao{
+    text-align: center;
+    align-items: center;
+    padding: 15%;
+    color: white;
+    background: url(Imagens/lemans-24-hours-of-le-mans-2016-6-toyota-racing-toyota-ts050-hybrid-stephane-sarrazin-mike.jpg);
+}
