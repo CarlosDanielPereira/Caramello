@@ -6,3 +6,9 @@
 body{
     background-color: rgb(78, 78, 78);
 }
+
+#imghome{
+    width: 1440px;
+    width: 601px;
+    background-image: url("../Imagens/Introdução.png");
+}
