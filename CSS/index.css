@@ -7,8 +7,7 @@ body{
     background-color: rgb(78, 78, 78);
 }
 
-#imghome{
-    width: 1440px;
-    width: 601px;
-    background-image: url("../Imagens/Introdução.png");
+#imghome{  
+    height: 600px;  
+    background-image: url("../Imagens/imghome.jpg");
 }
