@@ -20,3 +20,31 @@ header{
 }
 
 /*Rodapé*/
+
+footer{
+    background-image: url("../Imagens/Fundo-rodapé.png");
+    height: 500px;
+}
+
+#logosrodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.imagenspat{
+    height: 100px;
+}
+
+#mapadosite{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 200px;
+}
+
+.linkmp{
+    display: flex;
+    flex-direction: column;
+}
