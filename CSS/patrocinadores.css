@@ -1,0 +1,65 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Introducao{
+    text-align: center;
+    padding: 10%;
+    background-image: url(../Imagens/gettyimages-1237190757\ 1.png);
+    background-repeat: no-repeat;
+    color: white;
+}
+.TituloPatrocinio{
+    padding: 1%;
+    border-bottom: solid 6px #F9BA1A;
+    border-top: solid 6px #F9BA1A;
+    color: white;
+}
+
+.TodosPatro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Patro1{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    background-color: #666666;
+    color: white;
+    width: 90%;
+}
+.Patro2{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    background-color: #666666;
+    color: white;
+    width: 90%;
+}
+.Patro3{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    background-color: #666666;
+    color: white;
+    width: 90%;
+}
+.Patro4{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    background-color: #666666;
+    color: white;
+    width: 90%;
+}
