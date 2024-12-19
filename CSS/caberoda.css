@@ -10,7 +10,10 @@ header{
     padding: 10px;
     color: white;
     background-image: url("../Imagens/fundocabecalho.png");
-    
+}
+#TituloHeader{
+    text-decoration: none;
+    color: white;
 }
 #Menu{
     padding-left: 2%;
