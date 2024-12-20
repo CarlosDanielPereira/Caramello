@@ -2,25 +2,39 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: white;
 }
+
+/*Introdução*/
 .Introducao{
     text-align: center;
     padding: 10%;
     background-image: url(../Imagens/gettyimages-1237190757\ 1.png);
     background-repeat: no-repeat;
-    color: white;
 }
-.TituloPatrocinio{
+#TituloIntroducao{
+    font-size: 50px;
+}
+#TextoIntroducao{
+    font-size: 33px;
     padding: 1%;
-    border-bottom: solid 6px #F9BA1A;
-    border-top: solid 6px #F9BA1A;
-    color: white;
+    text-align: justify;
+}
+
+/*Patrocínios e Parceiros*/
+.TituloPatrocinio{
+    padding: 2%;
+    border-bottom: solid 4px #F9BA1A;
+    border-top: solid 4px #F9BA1A;
+    margin: 2%;
+    font-size: 25px;
 }
 
 .TodosPatro{
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .Patro1{
@@ -28,38 +42,53 @@
     text-align: center;
     justify-content: space-around;
     align-items: center;
+    margin: 1%;
     padding: 1%;
     background-color: #666666;
-    color: white;
-    width: 90%;
+    width: 1700px;
 }
 .Patro2{
     display: flex;
     text-align: center;
     justify-content: space-around;
     align-items: center;
+    margin: 1%;
     padding: 1%;
     background-color: #666666;
-    color: white;
-    width: 90%;
+    width: 1700px;
 }
 .Patro3{
     display: flex;
     text-align: center;
     justify-content: space-around;
     align-items: center;
+    margin: 1%;
     padding: 1%;
     background-color: #666666;
-    color: white;
-    width: 90%;
+    width: 1700px;
 }
 .Patro4{
     display: flex;
     text-align: center;
     justify-content: space-around;
     align-items: center;
+    margin: 1%;
+    margin-bottom: 3%;
     padding: 1%;
     background-color: #666666;
-    color: white;
-    width: 90%;
+    width: 1700px;
+}
+#texto{
+    width: 40%;
+}
+#TituloPatro{
+    font-size: 50px;
+}
+#TextoPatro{
+    font-size: 30px;
+    text-align: justify;
+    padding: 2%;
+}
+#ImagemPatro{
+    width: 11%;
 }

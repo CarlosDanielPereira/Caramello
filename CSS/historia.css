@@ -1,0 +1,49 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+/*Introdução*/
+.Introducao{
+    text-align: center;
+    padding: 10%;
+    background-image: url(../Imagens/undefined-1628088634434\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+}
+#TituloIntroducao{
+    font-size: 50px;
+}
+#TextoIntroducao{
+    font-size: 33px;
+    padding: 1%;
+    text-align: justify;
+}
+
+.TituloHistoria{
+    padding: 2%;
+    border-bottom: solid 4px #F9BA1A;
+    border-top: solid 4px #F9BA1A;
+    margin: 2%;
+    font-size: 25px;
+}
+
+/*Historia*/
+
+.PrimeiraFase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#TituloFase{
+    font-size: 55px;
+    padding: 1%;
+    padding-left: 2%;
+}
+#TextoFase{
+    font-size: 35px;
+    width: 90%;
+    padding: 1%;
+    padding-left: 2%;
+}
