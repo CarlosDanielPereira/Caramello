@@ -1,4 +1,4 @@
 Participantes:
 Carlos Daniel Pereira
-Nickolas Gabriel de Paula
+Nickolas Gabriel dos Santos Paula
 Custavo Ribeiro de Araujo
