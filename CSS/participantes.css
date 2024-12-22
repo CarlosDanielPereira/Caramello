@@ -1,0 +1,57 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+/*Introdução*/
+.Introducao{
+    text-align: center;
+    padding: 10%;
+    background-image: url(../Imagens/2023-drivers-lineup-on-the-gri\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+}
+#TituloIntroducao{
+    font-size: 50px;
+}
+#TextoIntroducao{
+    font-size: 33px;
+    padding: 1%;
+    text-align: justify;
+}
+
+.TituloParticipantes{
+    padding: 2%;
+    border-bottom: solid 4px #F9BA1A;
+    border-top: solid 4px #F9BA1A;
+    margin: 2%;
+    font-size: 25px;
+}
+
+.Pessoa{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    padding: 1%;
+    background-color: #666666;
+}
+#Foto{
+    width: 13%;
+}
+#Descricao-pf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+}
+#Nomes{
+    font-size: 55px;
+}
+#Descricao{
+    padding-top: 2%;
+}
