@@ -184,4 +184,56 @@ body{
 .descp {
     font-size: 16px;
 }
+}@media (max-width: 740px) {
+    #imghome {
+        height: 250px;
+        background-size: cover;
+    }
+
+    #titulo {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    #textint {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .topicos {
+        font-size: 22px;
+    }
+
+    .imgpatrocinadores {
+        height: 80px;
+    }
+
+    #divimgpat {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #textresumo {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .pessoa {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .imgpart {
+        width: 100%;
+    }
+
+    .subtopicos {
+        width: 95%;
+        padding: 8px;
+    }
+
+    .descp {
+        font-size: 14px;
+    }
 }
