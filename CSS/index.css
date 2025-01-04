@@ -5,9 +5,201 @@
 
 body{
     background-color: rgb(78, 78, 78);
+    font-family: sans-serif;
 }
 
 #imghome{  
-    height: 600px;  
+    height: 400px;  
     background-image: url("../Imagens/imghome.jpg");
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#textint{
+    font-size: 25px;
+    width: 1000px;
+}
+
+/*Patrocinadores*/
+#patrocinadores {
+    padding: 15px;
+}
+
+.topicos {
+    color: white;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+.imgpatrocinadores {
+    height: 120px;
+}
+
+#divimgpat {
+    display: flex;
+    justify-content: space-around;
+}
+
+#umpouco {
+    padding: 15px;
+    padding-top: 0;
+}
+
+#textresumo {
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+}
+
+/*Participantes*/
+#participantes {
+    padding: 15px;
+    padding-top: 0;
+}
+
+#infpart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pessoa {
+    width: 280px;
+    height: 400px;
+    background-color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.imgpart {
+    width: 240px;
+    height: 300px;
+    padding-top: 15px;
+}
+
+/*Descubra*/
+#descubra {
+    padding: 15px;
+    padding-top: 0;
+    color: white;
+}
+
+
+.subtopicos {
+    width: 450px;
+    height: 220px;
+    border: solid 3px #F9BA1A;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.descsub {
+    display: flex;
+    justify-content: space-around;
+}
+
+.desch3img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.descdivimg{
+    width: 30px;
+}
+
+.descp{
+    font-size: 20px;
+}
+
+/*Borda e espaçamento dos tópicos*/
+.borda {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: solid 3px #F9BA1A;
+    border-top: solid 3px #F9BA1A;
+    margin-top: 8px;
+}
+
+/* Responsividade para celulare*/
+@media (max-width: 768px) {
+    #imghome {
+        height: 250px;
+        font-size: 18px;
+    }
+
+    #titulo {
+        font-size: 24px;
+    }
+
+    #textint {
+        font-size: 20px;
+    }
+
+    .topicos {
+        font-size: 28px;
+    }
+
+    #textresumo {
+        font-size: 20px;
+    }
+
+    .pessoa {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .imgpart {
+        max-width: 180px;
+    }
+
+    .subtopicos {
+        max-width: 100%;
+    }
+
+    .descp {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    #imghome {
+        height: 200px;
+        font-size: 16px;
+    }
+
+    #titulo {
+        font-size: 20px;
+    }
+
+    #textint {
+        font-size: 18px;
+    }
+
+    .topicos {
+        font-size: 24px;
+    }
+
+    #textresumo {
+        font-size: 18px;
+    }
+
+    .pessoa {
+        font-size: 20px;
+    }
+
+    .subtopicos {
+        font-size: 16px;
+    }
 }
