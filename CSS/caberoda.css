@@ -7,7 +7,8 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    align-items: center;
+    padding: 10px 20px;
     color: white;
     background-image: url("../Imagens/fundocabecalho.png");
 }
@@ -76,46 +77,107 @@ footer{
     height: 20px;
     padding-right: 2px;
 }
+
+/* Menu hambúrguer */
+#Menu {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+#menu-hamburguer {
+    display: none;
+    position: absolute;
+    top: 60px; /* Ajustar conforme necessário */
+    right: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+#menu-hamburguer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-hamburguer li {
+    border-bottom: 1px solid #444;
+}
+
+#menu-hamburguer li:last-child {
+    border-bottom: none;
+}
+
+#menu-hamburguer a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#menu-hamburguer a:hover {
+    background-color: #575757;
+}
+
+#menu-hamburguer.active {
+    display: block;
+}
+
 /* Responsividade*/
 @media (max-width: 787px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    #Menu {
-        padding-left: 0;
-    }
-
-    footer {
-        text-align: center;
-    }
-
-    #logosrodape {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 0;
-    }
-
-    .imagenspat {
-        height: 60px;
-        padding: 5px;
-    }
-
-    #mapadosite {
-        display: flex;
-        flex-direction: row;
-        padding: 20px;
-        margin: 0;
-        font-size: 18px;
-    }
-
-    .linkmp {
-        align-items: center;
-    }
-
-    .links {
-        font-size: 16px;
-    }
+header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
+
+footer {
+    text-align: center;
+}
+
+#logosrodape {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.imagenspat {
+    height: 60px;
+    padding: 5px;
+}
+
+#mapadosite {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 0;
+    font-size: 18px;
+}
+
+.linkmp {
+    align-items: center;
+}
+
+.links {
+    font-size: 16px;
+}
+#Menu {
+    align-self: flex-start;
+}
+
+#menu-hamburguer {
+    width: 100%;
+    top: 50px; /* Ajusta a posição do menu */
+    right: 0;
+    border-radius: 0;
+}
+
+#menu-hamburguer a {
+    padding: 15px 10px;
+    font-size: 18px;
+}
+}
+
