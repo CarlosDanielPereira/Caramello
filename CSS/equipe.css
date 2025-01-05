@@ -16,6 +16,17 @@ body {
     color: #ffffff;
 }
 
+#inftitulo{
+    font-size: 25px;
+    width: 1000px;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
 #imgequipe{  
     height: 400px;  
     background-image: url("../Imagens/imgequipe.svg");
@@ -25,16 +36,17 @@ body {
     justify-content: center;
 }
 
-h2 {
+#subt {
     text-align: center;
     margin-bottom: 20px;
-    color: #444;
+    color: #ffffff;
 }
 
 #equipe-tecnica {
     padding: 20px;
     margin-bottom: 40px;
 }
+
 
 .ppart {
     text-align: center;
@@ -58,7 +70,7 @@ h2 {
     justify-content: center;
 }
 
-h3 {
+#outrosubtitulos {
     margin-top: 30px;
     color: #ffffff;
     border-bottom: 2px solid #ccc;
@@ -96,4 +108,53 @@ h3 {
     margin: 0;
     font-size: 14px;
     line-height: 1.5;
+}
+@media (min-width: 768px) {
+.participante {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+#inftitulo{
+    font-size: 25px;
+    width: 700px;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.participante img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+
+
+    .participante img {
+        margin-right: 15px;
+        margin-bottom: 0;
+    }
+
+.subtitulos {
+    margin: 10px 0 5px 0;
+    font-size: 18px;
+    color: #ffffff;
+    border-bottom: solid 3px #F9BA1A;
+}
+
+.participante p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+    .participante p {
+        text-align: left;
+    }
 }
