@@ -88,7 +88,7 @@ footer{
 #menu-hamburguer {
     display: none;
     position: absolute;
-    top: 60px; /* Ajustar conforme necessário */
+    top: 60px;
     right: 10px;
     background-color: #333;
     border-radius: 5px;
@@ -96,21 +96,17 @@ footer{
     z-index: 1000;
 }
 
-#menu-hamburguer ul {
+#menuul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-#menu-hamburguer li {
+.botoes {
     border-bottom: 1px solid #444;
 }
 
-#menu-hamburguer li:last-child {
-    border-bottom: none;
-}
-
-#menu-hamburguer a {
+.linkspag {
     display: block;
     padding: 10px 20px;
     color: white;
