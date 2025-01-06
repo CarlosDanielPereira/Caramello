@@ -1,0 +1,101 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Banner principal */
+#banner {
+    background: url('Imagens/banner.jpg') center/cover no-repeat; /* Substitua com o caminho correto para a imagem do banner */
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#banner-title {
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#banner-subtitle {
+    font-size: 18px;
+    color: #ccc;
+}
+
+/* Títulos das seções */
+.titulo {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border-bottom: solid 3px #F9BA1A;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.carpilo{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Informações dos carros */
+.car-info {
+    margin: 20px auto;
+    text-align: center;
+    width: 80%;
+}
+
+.car-image {
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.car-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9BA1A;
+}
+
+/* Cartões dos pilotos */
+.pilots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 1200px;
+}
+
+.pilot-card {
+    background-color: #444;
+    border: 2px solid #F9BA1A;
+    text-align: center;
+    width: 700px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+
+.pilot-photo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.pilot-info {
+    color: #fff;
+    font-size: 16px;
+}
+
