@@ -133,38 +133,43 @@ body{
 }
 
 /* Responsividade para celulare*/
-@media (max-width: 780px) {
+@media (max-width: 375px) {
     #imghome {
-        height: 250px;
-        font-size: 14px;
+        height: 200px;
+        font-size: 12px;
     }
 
     #titulo {
-        font-size: 22px;
+        font-size: 10px;
     }
 
     #textint {
-        font-size: 18px;
-        width: 100%;
-        padding: 10px;
+        font-size: 16px;
+        width: 100%; 
+        padding: 8px;
     }
 
     .topicos {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     #textresumo {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    .imgpatrocinadores {
+        height: 60px;
     }
 
     .pessoa {
-        width: 150px;
-        height: 220px;
+        width: 80px;
+        height: 140px;
+        font-size: 10px;
     }
 
     .imgpart {
-        width: 100px;
-        height: 150px;
+        width: 60px;
+        height: 100px;
     }
 
     .subtopicos {
@@ -173,10 +178,12 @@ body{
     }
 
     .descp {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
 .a-h3{
     color: white;
 }
+
+

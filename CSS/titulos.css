@@ -118,3 +118,115 @@
 #ImgText1{
     width: 20%;
 }
+@media screen and (max-width: 360px) {
+    /*Introdução*/
+     
+    .Introducao{
+        text-align: center;
+        padding: 10%;
+        background-image: url(../Imagens/20200309160951581609o\ 1\ \(1\).png);
+        background-repeat: no-repeat;
+    }
+    #TituloIntroducao{
+        font-size: 20px;
+    }
+    #TextoIntroducao{
+        font-size: 15px;
+        padding: 1%;
+        text-align: justify;
+    }
+    .TituloTitulos{
+        padding: 2%;
+        border-bottom: solid 2px #F9BA1A;
+        border-top: solid 2px #F9BA1A;
+        margin: 2%;
+        font-size: 15px;
+    }
+    .TodosTitulos{
+        padding-top: 1%;
+    }
+    .Titulos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: #666666;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .Linha{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+    #Titulo{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    #TitulosImg{
+        width: 70%;
+    }
+    #TextTitulos{
+        font-size: 13px;
+    }
+    #TextTitulosNum{
+        opacity: 0;
+    }
+    #Titulo:hover #TextTitulosNum{
+        opacity: 1;
+        transition: 0.3s;
+    }
+    .TituloMarcantes{
+        padding: 2%;
+        border-bottom: solid 4px #F9BA1A;
+        margin: 2%;
+        font-size: 13px;
+    }
+    .MaisMarcante{
+        display: flex;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: #666666;
+        padding: 1%;
+    }
+    .Tudo{
+        padding-bottom: 2%;
+    }
+    #TituloMarcanteImg{
+        border: solid #F9BA1A 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #ImgMarcante{
+        width: 80%;
+    }
+    #TextMarcante{
+        font-size: 16px;
+        text-align: center;
+    }
+    #ImgText{
+        width: 25%;
+        padding-top: 2%;
+    }
+    #ImgMarcante1{
+        width: 125%;
+    }
+    #TituloMarcanteImg1{
+        border: solid #F9BA1A 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 4%;
+        padding-right: 3%;
+    }
+    #ImgNoticiaMarcante{
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        padding-top: 2%;
+    }
+    #ImgText1{
+        width: 20%;
+    }
+    }
