@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Cabeçalho*/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    background-image: url("../Imagens/fundocabecalho.png");
+    
+}
+#Menu{
+    padding-left: 2%;
+}
+#nada{
+    width: 1%;
+}
+
+/*Rodapé*/
+
+footer{
+    background-image: url("../Imagens/Fundo-rodapé.png");
+
+    padding: 20px;
+}
+
+#logosrodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.imagenspat{
+    height: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#mapadosite{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    border-top: solid white 3px;
+    border-bottom: solid white 3px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.linkmp{
+    display: flex;
+    flex-direction: column;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.redessociais{
+    height: 20px;
+    padding-right: 2px;
+}
