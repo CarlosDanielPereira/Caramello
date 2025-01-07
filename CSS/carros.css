@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -12,22 +11,36 @@ body {
     color: #fff;
 }
 
+#sel-visualizacao{
+ margin-left: 50px;
+ margin-top: 20px;
+ width: 100px;
+ height: 30px;
+ font-size: 20px;
+ background-color:  #F9BA1A;
+}
+
 /* Banner principal */
 #banner {
-    background: url('Imagens/banner.jpg') center/cover no-repeat; /* Substitua com o caminho correto para a imagem do banner */
+    background: url('../Imagens/carros.png') center/cover no-repeat;
     text-align: center;
     padding: 50px 20px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #banner-title {
-    font-size: 36px;
+    font-size: 60px;
     color: #fff;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 #banner-subtitle {
-    font-size: 18px;
+    font-size: 30px;
     color: #ccc;
 }
 
@@ -46,19 +59,40 @@ body {
 .carpilo{
     display: flex;
     flex-direction: row;
+    border-bottom: 3px solid #F9BA1A;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
 }
 
 /* Informações dos carros */
 .car-info {
-    margin: 20px auto;
+
     text-align: center;
-    width: 80%;
+    width: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 50%;
+    margin-top: 15%;
+    margin-bottom: 50px;
+    border: 2px solid #F9BA1A;
 }
 
 .car-image {
     max-width: 600px;
     height: auto;
     margin-bottom: 10px;
+}
+
+.car-f1{
+    text-align: center;
+    width: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid #F9BA1A;
 }
 
 .car-name {
@@ -73,7 +107,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px auto;
-    width: 1200px;
+    width: 500px;
 }
 
 .pilot-card {
@@ -81,21 +115,99 @@ body {
     border: 2px solid #F9BA1A;
     text-align: center;
     width: 700px;
+    height: 200px;
     margin-bottom: 20px;
+    margin-top: 50px;
     padding: 10px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .pilot-photo {
-    width: 80px;
-    height: 80px;
+    height: 125px;
     margin-bottom: 10px;
 }
 
 .pilot-info {
     color: #fff;
     font-size: 16px;
+    padding-left: 20px;
+    align-items: center;
+    text-align: center;
 }
 
+@media (max-width: 780px) {
+    /* Banner */
+    #banner {
+        height: 280px;
+        padding: 20px 10px;
+    }
+
+    #banner-title {
+        font-size: 36px;
+    }
+
+    #banner-subtitle {
+        font-size: 18px;
+    }
+
+    /* Botões */
+    .selector-btn {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+
+    /* Títulos */
+    .titulo {
+        font-size: 22px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /* Seções de carros */
+    .car-info,
+    .car-f1 {
+        width: 80%;
+        margin-left: 40px ;
+    }
+
+    .car-image {
+        max-width: 100%;
+    }
+
+    .carpilo {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /* Pilotos */
+    .pilots {
+        flex-direction: column;
+        width: 50%;
+        margin: 15px auto;
+    }
+
+    .pilot-card {
+        flex-direction: column;
+        width: 500px;
+        height: auto;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-left: -90px;
+    }
+
+    .pilot-photo {
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .pilot-info {
+        font-size: 14px;
+        padding-left: 0;
+        text-align: center;
+    }
+}
