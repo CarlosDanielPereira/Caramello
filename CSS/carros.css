@@ -210,4 +210,13 @@ body {
         padding-left: 0;
         text-align: center;
     }
+
+    #sel-visualizacao{
+        margin-left: 50px;
+        margin-top: 20px;
+        width: 100px;
+        height: 30px;
+        font-size: 20px;
+        background-color:  #F9BA1A;
+       }
 }
