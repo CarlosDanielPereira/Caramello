@@ -152,14 +152,17 @@ footer{
         padding: 15px;
         margin: 0;
         font-size: 16px;
+        text-align: center;
     }
 
     .linkmp {
         align-items: center;
+    
     }
 
     .links {
         font-size: 7px;
+        font-size: 14px;
     }
 
     #Menu {
@@ -177,6 +180,13 @@ footer{
         padding: 12px 8px;
         font-size: 16px;
     }
-}
+    .redessociais {
+        width: 20px;
+        height: 20px;
+    }
 
+    #ser, #tec {
+        display: none;
+    }
+}
 
