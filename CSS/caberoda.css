@@ -65,6 +65,7 @@ footer{
 .linkmp{
     display: flex;
     flex-direction: column;
+    margin-left: 30px;
 }
 
 .links{
