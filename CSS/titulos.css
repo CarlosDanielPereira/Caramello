@@ -49,9 +49,12 @@
 #Titulo{
     padding-top: 2%;
     padding-bottom: 2%;
+
 }
 #TitulosImg{
     width: 70%;
+    max-width: 220px;
+    max-height: 440px;
 }
 #TextTitulos{
     font-size: 25px;
