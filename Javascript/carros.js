@@ -1,21 +1,30 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const selection = document.getElementById('selection');
-    const result = document.getElementById('result');
-  
-    // Adiciona um evento de mudança na caixa de seleção
-    selection.addEventListener('change', () => {
-      const value = selection.value; // Obtém o valor da opção selecionada
-  
-      // Verifica qual opção foi escolhida
-      if (value === 'wec') {
-        result.textContent = 'Você selecionou a Opção 1. Aqui estão os detalhes correspondentes.';
-        result.style.display = 'block'; // Exibe o resultado
-      } else if (value === 'f1') {
-        result.textContent = 'Você selecionou a Opção 2. Aqui estão as informações específicas.';
-        result.style.display = 'block'; // Exibe o resultado
-      } else {
-        result.style.display = 'none'; // Oculta o resultado caso nada seja selecionado
+document.addEventListener("DOMContentLoaded", function () {
+  //Seletores das divs WEC e F1
+  const wecSecao = document.getElementById("wec");
+  const f1Secao = document.getElementById("f1");
+
+  //seletor do HTML
+  const seletor = document.getElementById("sel-visualizacao");
+
+  //controlar a visibilidade das seções
+  function updateVisibility(selectedView) {
+      if (selectedView === "wec") {
+          wecSecao.style.display = "block";
+          f1Secao.style.display = "none";
+      } else if (selectedView === "f1") {
+          wecSecao.style.display = "none";
+          f1Secao.style.display = "block";
+      } else if (selectedView === "todos") {
+          wecSecao.style.display = "block";
+          f1Secao.style.display = "block";
       }
-    });
+  }
+
+  //evento de mudança no seletor
+  seletor.addEventListener("change", function () {
+      updateVisibility(this.value);
   });
-  
+
+  //exibição apenas com a seção WEC
+  updateVisibility("wec");
+});
