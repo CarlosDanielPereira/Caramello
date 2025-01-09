@@ -46,101 +46,15 @@
 #Descricao-pf{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     font-size: 25px;
+}
+#descricao-pff{
+    display: flex;
+    align-items: center;
 }
 #Nomes{
     font-size: 55px;
 }
 #Descricao{
     padding-top: 2%;
-}
-@media screen and (max-width: 360px) {
-    .Introducao{
-        text-align: center;
-        padding: 10%;
-        background-image: url(../Imagens/Patrorespon.png);
-        background-repeat: no-repeat;
-    }
-    #TituloIntroducao{
-        font-size: 20px;
-    }
-    #TextoIntroducao{
-        font-size: 14px;
-        padding: 1%;
-        text-align: justify;
-    }
-    
-    /*Patrocínios e Parceiros*/
-    
-    .TituloPatrocinio{
-        padding: 2%;
-        border-bottom: solid 2px #F9BA1A;
-        border-top: solid 2px #F9BA1A;
-        margin: 2%;
-        font-size: 13px;
-    }
-    
-    .TodosPatro{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .Patro1{
-        display: flex;
-        text-align: center;
-        justify-content: space-around;
-        align-items: center;
-        margin: 1%;
-        padding: 2%;
-        background-color: #666666;
-        width: 90%;
-    }
-    .Patro2{
-        display: flex;
-        text-align: center;
-        justify-content: space-around;
-        align-items: center;
-        margin: 1%;
-        padding: 2%;
-        background-color: #666666;
-        width: 90%;
-    }
-    .Patro3{
-        display: flex;
-        text-align: center;
-        justify-content: space-around;
-        align-items: center;
-        margin: 1%;
-        padding: 2%;
-        background-color: #666666;
-        width: 90%;
-    }
-    .Patro4{
-        display: flex;
-        text-align: center;
-        justify-content: space-around;
-        align-items: center;
-        margin: 1%;
-        padding: 2%;
-        margin-bottom: 3%;
-        background-color: #666666;
-        width: 90%;
-    }
-    #texto{
-        width: 40%;
-    }
-    #TituloPatro{
-        font-size: 16px;
-    }
-    #TextoPatro{
-        font-size: 12px;
-        text-align: justify;
-        padding: 2%;
-    }
-    #ImagemPatro{
-        width: 20%;
-    }
 }
