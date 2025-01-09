@@ -1,0 +1,38 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.Introducao{
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#um{
+    background-image: url(../Imagens/db2e8f84e7815454e6b799c72fb96329\ 1.png);
+    width: 60%;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+#textum{
+    padding: 2%;
+}
+#noticiadois{
+    background-image: url(../Imagens/zhou1\ 1.png);
+    width: 90%;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+}
+#noticiatres{
+    background-image: url(../Imagens/images\ 7.png);
+    width: 90%;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+}
+#textdois{
+    padding: 2%;
+}
