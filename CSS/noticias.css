@@ -6,33 +6,124 @@
 }
 .Introducao{
     display: flex;
+    justify-content: center;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 4%;
 }
-#um{
+#link1{
     background-image: url(../Imagens/db2e8f84e7815454e6b799c72fb96329\ 1.png);
-    width: 60%;
-    height: 500px;
+    width: 42%;
+    height: 506px;
     display: flex;
     align-items: flex-end;
+    margin-right: 1%;
+    text-decoration: none;
+    color: white;
+    transition: 500ms;
 }
+#dois1{
+    transition: 500ms;
+}
+#dois2{
+    transition: 500ms;
+}
+
 #textum{
     padding: 2%;
 }
 #noticiadois{
     background-image: url(../Imagens/zhou1\ 1.png);
-    width: 90%;
-    height: 250px;
+    width: 89%;
+    height: 248px;
     display: flex;
     align-items: flex-end;
+    margin-bottom: 1%;
 }
 #noticiatres{
     background-image: url(../Imagens/images\ 7.png);
-    width: 90%;
-    height: 250px;
+    width: 89%;
+    height: 248px;
     display: flex;
     align-items: flex-end;
 }
 #textdois{
     padding: 2%;
+}
+#link{
+    text-decoration: none;
+    color: white;
+}
+#link2{
+    text-decoration: none;
+    color: white;
+}
+
+#link1:hover{
+    -webkit-transform: scale(1.03);
+   transform: scale(1.03);
+   transition: 0.5s;
+}
+#dois1:hover{
+    -webkit-transform: scale(1.03);
+   transform: scale(1.03);
+   transition: 0.5s;
+}
+#dois2:hover{
+    -webkit-transform: scale(1.03);
+   transform: scale(1.03);
+   transition: 0.5s;
+}
+
+/*Site notícia*/
+
+#noticia{
+    display: flex;
+    border-top: solid 2px #F9BA1A;
+    border-bottom: solid 2px #F9BA1A;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 1%;
+}
+#noticia1{
+    display: flex;
+    border-bottom: solid 2px #F9BA1A;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 1%;
+}
+#noticia2{
+    display: flex;
+    border-bottom: solid 2px #F9BA1A;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 1%;
+}
+#noticia2{
+    display: none;
+}
+
+#textnoticia{
+    display: flex;
+    padding: 1%;
+}
+#Imagem{
+    width: 22%;
+}
+#text{
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+#botao{
+    color: white;
+    background-color: #FFD467;
+    width: 60%;
+    padding: 15px;
+    font-size: 18px;
+}
+#botaoperso{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
 }
