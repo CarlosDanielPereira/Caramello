@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: porscha;
+    src: url(../fontes/911porschav3ital.ttf);
+}
 
 /* Corpo */
 body {
@@ -17,7 +21,6 @@ body {
  width: 100px;
  height: 30px;
  font-size: 20px;
- background-color:  #F9BA1A;
 }
 
 /* Banner principal */
@@ -44,16 +47,17 @@ body {
     color: #ccc;
 }
 
-/* Títulos das seções */
+/* Títulos das Divs */
 .titulo {
     margin-top: 40px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
     border-bottom: solid 3px #F9BA1A;
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
+    font-family: porscha;
 }
 
 .carpilo{
