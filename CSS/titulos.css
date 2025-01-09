@@ -52,9 +52,8 @@
 
 }
 #TitulosImg{
-    width: 70%;
-    max-width: 220px;
-    max-height: 440px;
+    width: 280px;
+    height: 440px;
 }
 #TextTitulos{
     font-size: 25px;
