@@ -46,15 +46,37 @@
 #Descricao-pf{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     font-size: 25px;
-}
-#descricao-pff{
-    display: flex;
-    align-items: center;
 }
 #Nomes{
     font-size: 55px;
 }
 #Descricao{
     padding-top: 2%;
+}
+@media screen and (max-width: 360px) {
+    .Introducao{
+        text-align: center;
+        padding: 10%;
+        background-image: url(../Imagens/Patrorespon.png);
+        background-repeat: no-repeat;
+    }
+    #TituloIntroducao{
+        font-size: 20px;
+    }
+    #TextoIntroducao{
+        font-size: 14px;
+        padding: 1%;
+        text-align: justify;
+    }
+    #Descricao{
+        font-size: 20px;
+    }
+    .Pessoa{
+        flex-direction: column;
+    }
+    #Nomes{
+        font-size: 25px;
+    }
 }
