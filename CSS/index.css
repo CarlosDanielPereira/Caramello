@@ -135,6 +135,7 @@ body{
 /* Responsividade para celulare*/
 @media (max-width: 375px) {
     #imghome {
+        background-image: url("../Imagens/imghome_responsivo.jpeg");
         height: 200px;
         font-size: 12px;
     }

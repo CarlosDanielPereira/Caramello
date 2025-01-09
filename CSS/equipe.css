@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: Porscha;
+    font-family: porscha;
     src: url(../fontes/911porschav3ital.ttf);
 }
 
@@ -70,12 +70,12 @@ body {
     justify-content: center;
 }
 
-#outrosubtitulos {
+.outrosubtitulo{
     margin-top: 30px;
     color: #ffffff;
     border-bottom: 2px solid #ccc;
     padding-bottom: 5px;
-    font-family: Porscha;
+    font-family: porscha;
     font-size: 30px;
 }
 
@@ -153,7 +153,7 @@ body {
 
     #imgequipe{  
         height: 200px;  
-        background-image: url("../Imagens/imgequipe.svg");
+        background-image: url("../Imagens/imgequipe_responsivo.png");
         color: white;
         display: flex;
         align-items: center;

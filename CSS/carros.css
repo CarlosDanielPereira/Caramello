@@ -143,6 +143,7 @@ body {
     #banner {
         height: 220px;
         padding: 15px 5px;
+        background: url('../Imagens/carros_responsivo.png') center/cover no-repeat;
     }
 
     #banner-title {
