@@ -91,7 +91,9 @@ body{
     padding-top: 0;
     color: white;
 }
-
+h2{
+    color: white;
+}
 
 .subtopicos {
     width: 450px;
