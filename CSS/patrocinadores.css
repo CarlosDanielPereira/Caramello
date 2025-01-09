@@ -92,3 +92,97 @@
 #ImagemPatro{
     width: 11%;
 }
+
+@media (max-width: 375px){
+
+    .Introducao{
+        text-align: center;
+        background-image: url(../Imagens/gettyimages-1237190757\ 1\ \(1\)\ \(4\).png);
+        background-repeat: no-repeat;
+    }
+    #TituloIntroducao{
+        font-size: 20px;
+    }
+    #TextoIntroducao{
+        font-size: 15px;
+        padding: 1%;
+        text-align: justify;
+    }
+    
+    /*Patrocínios e Parceiros*/
+    .TituloPatrocinio{
+        padding: 2%;
+        border-bottom: solid 2px #F9BA1A;
+        border-top: solid 2px #F9BA1A;
+        margin: 2%;
+        font-size: 12px;
+    }
+    
+    .TodosPatro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Patro1{
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1%;
+        padding: 1%;
+        background-color: #666666;
+        width: 350px;
+        height: 190;
+    }
+    .Patro2{
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1%;
+        padding: 1%;
+        background-color: #666666;
+        width: 350px;
+        height: 190;
+    }
+    .Patro3{
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1%;
+        padding: 1%;
+        background-color: #666666;
+        width: 350px;
+        height: 190;
+    }
+    .Patro4{
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1%;
+        margin-bottom: 3%;
+        padding: 1%;
+        background-color: #666666;
+        width: 350px;
+        height: 190;
+    }
+    #texto{
+        width: 40%;
+    }
+    #TituloPatro{
+        font-size: 17px;
+    }
+    #TextoPatro{
+        font-size: 13px;
+        text-align: justify;
+        padding: 2%;
+    }
+    #ImagemPatro{
+        width: 14%;
+    }
+
+}
